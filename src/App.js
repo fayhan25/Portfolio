@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Introduction from './Pages/about/introduction';
 import Home from './Pages/Home';
-import Projects from './Projects';
+import Projects from './Pages/projects/Projects';
 import NavLinks from './Pages/NavLinks';
 function App() {
   return (

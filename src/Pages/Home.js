@@ -1,9 +1,12 @@
 import React from "react";
-
+import { Container } from 'react-bootstrap';
+import Introduction from "./about/introduction";
 const Home = () => {
     return (
-        <div>
-            <h1>Furkan's Portfolio</h1>
+        <div className="background">  
+            
+            <Introduction/>
+                    
         </div>
     )
 }

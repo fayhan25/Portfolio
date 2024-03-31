@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import background from '../images/homebackground.jpg'
-const BackGround = ({image,children}) => {
+import cube from '../images/cube.jpg'
+const BackGround = ({children}) => {
   const backgroundStyle = {
-    backgroundImage: `url(${image})`,
-    backgroundSize: '50%',
-    backgroundPosition: 'right 35% bottom 85%',
-    minHeight: '10vh',
+    backgroundImage: `url(${cube})`,
+    backgroundSize: 'contain',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
   };
 
   return (

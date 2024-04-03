@@ -4,6 +4,7 @@ import Introduction from "./about/introduction";
 import BackGround from "./BackGround";
 import cube from '../images/cube.jpg'
 import webdev from '../images/webdev.png'
+import Type from "./Type";
 const Home = () => {
     return (
         <Container fluid className="home-section" id="home">
@@ -21,10 +22,10 @@ const Home = () => {
                   I'M
                   <b style = {{color:"purple"}}> FURKAN AYHAN</b>
                 </h1>
-  
-                {/* <div style={{ padding: 50, textAlign: "left" }}>
+
+                <div style={{paddingTop: 25,textAlign: "left",color:"purple", fontSize: "200%", fontWeight: "bold", fontStyle: "italic"}}>
                   <Type />
-                </div> */}
+                </div>
               </Col>
   
               <Col md={5} style={{ paddingTop: 100 }}>

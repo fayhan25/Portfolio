@@ -1,21 +1,34 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Card from 'react-bootstrap/Card';
-import BackGround from "../BackGround";
+import TechStack from "./TechStack";
 import devpic from '../../images/devpic.png'
-import Image from 'react-bootstrap/Image';
+import { GiSoccerBall } from "react-icons/gi";
+import { SiYourtraveldottv } from "react-icons/si";
+import { BiCameraMovie } from "react-icons/bi";
 import './introduction.css'
 const Introduction = () => {
     return (
         <Container>
             <Row>
-                <Col md = {7} style={{ paddingTop: 65, textAlign:"center", color:"white" }}>
+                <Col md = {7} style={{ paddingTop: 65, color:"white" }}>
                 
                 <h1 style={{fontSize: "250%"}}>About Me</h1>
                 <p style={{fontSize: "150%", paddingTop: 55}}>
-                    Hi Everyone, I am Furkan Ayhan from Vancouver, BC, and I am a 4th year Computer Science Student at Simon Fraser
-                    University, with a focus on developing full stack web apps with MERN stack.
-                    Other than coding I love to play soccer, watch movies, and travel.
+                    Hi Everyone, I am Furkan Ayhan from Vancouver, BC. 
+                    <br/>
+                    I am a 4th year Computer Science Student at Simon Fraser University 
+                    <br/>
+                    with a focus on developing full stack web apps with MERN stack.
+                    Other than coding I love to:
+                    <br/>
+                    <br/>
+                    <div style={{color:"purple"}}>
+                        <GiSoccerBall color="white"/> Play soccer
+                      <br/>
+                        <BiCameraMovie color="white"/> Watch movies
+                      <br/> 
+                        <SiYourtraveldottv color="white"/> Travel.
+                    </div>
                 </p>
                 
 
@@ -30,6 +43,12 @@ const Introduction = () => {
                 />
               </Col>
             </Row>
+            
+            <Row style={{paddingTop: 45}}>
+            <h1 style={{textAlign: "center", color: "white", paddingBottom: 35}}> Technical Skills </h1>
+            <TechStack/>
+            </Row>
+            
       </Container>
     )
 }

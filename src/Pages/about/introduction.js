@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import TechStack from "./TechStack";
+import ToolStack from "./ToolStack"
 import devpic from '../../images/devpic.png'
 import { GiSoccerBall } from "react-icons/gi";
 import { SiYourtraveldottv } from "react-icons/si";
@@ -47,6 +48,11 @@ const Introduction = () => {
             <Row style={{paddingTop: 45}}>
             <h1 style={{textAlign: "center", color: "white", paddingBottom: 35}}> Technical Skills </h1>
             <TechStack/>
+            </Row>
+
+            <Row style={{paddingTop: 45}}>
+            <h1 style={{textAlign: "center", color: "white", paddingBottom: 35}}> Technical Tools </h1>
+            <ToolStack/>
             </Row>
             
       </Container>

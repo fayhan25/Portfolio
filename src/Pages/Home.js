@@ -2,11 +2,12 @@ import React from "react";
 import { Container,Row,Col } from 'react-bootstrap';
 import Introduction from "./about/introduction";
 import BackGround from "./BackGround";
-import cube from '../images/cube.jpg'
+
 import webdev from '../images/webdev.png'
 import Type from "./Type";
 const Home = () => {
     return (
+      <BackGround>
         <Container fluid className="home-section" id="home">
           <Container className="home-content">
             <Row>
@@ -39,6 +40,7 @@ const Home = () => {
             </Row>
           </Container>
         </Container>
+      </BackGround>
     )
 }
 

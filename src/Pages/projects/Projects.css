@@ -1,0 +1,8 @@
+.card {
+    text-align: center;
+    background-color: purple;
+}
+.card-cols{
+    padding: 3%;
+    color: white;
+}

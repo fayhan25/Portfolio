@@ -4,5 +4,11 @@
 }
 .card-cols{
     padding: 3%;
-    color: white;
+    display: flex;
+}
+
+    
+.card svg:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }

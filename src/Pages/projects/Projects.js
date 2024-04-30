@@ -5,6 +5,8 @@ import ProjectCard from "./ProjectCard";
 import "./Projects.css"
 import Movie from '../../images/Movie.PNG'
 import places from '../../images/places.PNG'
+import flixlist2 from '../../images/flixlist2.PNG'
+import port from '../../images/portfolio.PNG'
 function Projects() {
   return (
     <Container fluid>
@@ -51,7 +53,7 @@ function Projects() {
           <Col md={4} className = "card-cols">
             <div className="project-container">
             <ProjectCard className = "card"
-              imgPath={devpic}
+              imgPath={flixlist2}
               title="FlixList"
               description="Created a dynamic movie review platform with JavaScript/React, enabling users to share reviews with friends and followers."
               ghLink="https://github.com/fayhan25/FlixList"
@@ -63,7 +65,7 @@ function Projects() {
           <Col md={4} className = "card-cols">
             <div className="project-container">
             <ProjectCard className = "card"
-              imgPath={devpic}
+              imgPath={port}
               title="Portfolio"
               description="Portfolio built with reactjs to present information about myself"
               ghLink="https://github.com/fayhan25/Portfolio"

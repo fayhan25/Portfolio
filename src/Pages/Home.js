@@ -1,14 +1,14 @@
 import React from "react";
 import { Container,Row,Col } from 'react-bootstrap';
-import Introduction from "./about/introduction";
+import HomeIntro from "./HomeIntro";
 import BackGround from "./BackGround";
-
 import webdev from '../images/webdev.png'
 import Type from "./Type";
 const Home = () => {
     return (
-      <BackGround>
+      <React.Fragment>
         <Container fluid className="home-section" id="home">
+          <BackGround>
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
@@ -39,8 +39,11 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
+          </BackGround>
         </Container>
-      </BackGround>
+      <HomeIntro/>
+      </React.Fragment>
+      
     )
 }
 

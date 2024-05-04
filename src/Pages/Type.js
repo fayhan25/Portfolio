@@ -4,7 +4,7 @@ const Type = () => {
     return(
         <Typewriter
             options={{
-                strings: ['Full Stack Web Developer', '4th Year Computer Science Student'],
+                strings: ['Full Stack Developer', '4th Year Computer Science Student'],
                 autoStart: true,
                 loop: true,
             }}

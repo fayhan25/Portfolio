@@ -1,16 +1,14 @@
 .footer{
     color:white;
-    justify-content: center;
+    
 }
 h3{
     font-size: 90% !important;
     display: inline-block !important;
-    justify-content: center;
 }
-a{
-    padding-left: 5%;
-}
+
 .connect{
     display: flex !important;
     justify-content: flex-end !important;
+    color: white !important;
 }

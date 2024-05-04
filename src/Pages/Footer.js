@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Footer.css'
@@ -14,13 +13,13 @@ const Footer = () => {
             <Container className="footer">
                 <Row>
                     <Col>
-                        <h3>By Furkan Halim Ayhan</h3>
+                        <h3 style={{marginTop :"2%"}}>Developed By Furkan Halim Ayhan</h3>
                     </Col>
 
                     <Col className="connect">
                         <Nav>
                         <Nav.Item>
-                        <h3> Connect With Me:</h3>
+                        <h3 style={{marginTop: "11%"}}> Connect With Me:</h3>
                         </Nav.Item>
                         <Nav.Item>
                         <Nav.Link href = "https://github.com/fayhan25" >

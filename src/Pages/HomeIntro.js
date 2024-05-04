@@ -14,19 +14,12 @@ const HomeIntro = () =>{
               AN INTRODUCTION
             </h1>
             <p style={{color:"white"}}>
-              I fell in love with developing apps, especially creating dynamic web apps
+              I am passionate about developing apps, especially creating dynamic web apps
               <br />
               <br />
               I am fluent in
               <i>
-                <b style={{color:"purple"}}> Javascript</b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b style={{color:"purple"}}>Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b style={{color:"purple"}}> Javascript, C++, HTML</b>
               </i>
               <br />
               <br />

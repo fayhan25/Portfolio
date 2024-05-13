@@ -3,7 +3,9 @@ import {
     AiFillGithub,
   } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Container,Row,Col } from 'react-bootstrap';  
+import { Container,Row,Col } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image'
+import myAvatar from '../images/avatar.jpg'
 const HomeIntro = () =>{
     return(
         <Container fluid className="intro-container" style={{paddingTop: "5%"}}>
@@ -37,9 +39,7 @@ const HomeIntro = () =>{
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            {/* <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt> */}
+            <Image src={myAvatar} className="img-fluid" alt="avatar" roundedCircle={true} />
           </Col>
         </Row>
         <Row>

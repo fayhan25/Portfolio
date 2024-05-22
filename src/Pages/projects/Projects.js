@@ -19,8 +19,8 @@ function Projects() {
             <div className="project-container" style={{height: '100%'}}>
             <ProjectCard className = "card" 
               imgPath={Movie}
-              title="Logmdb"
-              description="Developed a dynamic app called Logmdb for everyone to share and log the movies they have watched. Used IMDB Api from rapid Api
+              title="Movie Log"
+              description="Developed a dynamic app called Movie Log for everyone to share and log the movies they have watched. Used IMDB Api from rapid Api
               to get movie information. Created an API with REST Api methodology to get movie, and user information from the user"
               ghLink="https://github.com/fayhan25/MoviesApp"
             />
@@ -31,7 +31,7 @@ function Projects() {
             
             <ProjectCard className = "card" 
               imgPath={places}
-              title="Places App"
+              title="Your Places"
               description="Developed a dynamic Places app with the MERN framework (MongoDB, ExpressJS, React, NodeJs) for users to share and review visited places.
               Implemented an API to get information from the frontend to the backend "
               ghLink="https://github.com/fayhan25/placesapp"

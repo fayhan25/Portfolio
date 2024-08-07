@@ -54,7 +54,7 @@ const HomeIntro = () =>{
                 <a
                   href="https://www.instagram.com/furkan_hlm/"
                   className="icon"
-                  style={{paddingLeft: "3%"}}
+                  style={{paddingLeft: "3%", paddingRight:"1.5%"}}
                 >
                   <FaInstagram color = {"purple"} size={"3em"}/>
                 </a>                

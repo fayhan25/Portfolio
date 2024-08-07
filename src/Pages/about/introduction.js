@@ -4,7 +4,7 @@ import TechStack from "./TechStack";
 import ToolStack from "./ToolStack"
 import devpic from '../../images/devpic.png'
 import { GiSoccerBall } from "react-icons/gi";
-import { SiYourtraveldottv } from "react-icons/si";
+import { RiFlightTakeoffFill } from "react-icons/ri";
 import { BiCameraMovie } from "react-icons/bi";
 import './introduction.css'
 const Introduction = () => {
@@ -28,7 +28,7 @@ const Introduction = () => {
                       <br/>
                         <BiCameraMovie color="white"/> Watch movies
                       <br/> 
-                        <SiYourtraveldottv color="white"/> Travel.
+                        <RiFlightTakeoffFill color="white"/> Travel.
                     </div>
                 </p>
                 

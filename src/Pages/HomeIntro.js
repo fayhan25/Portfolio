@@ -2,7 +2,7 @@ import React from "react"
 import {
     AiFillGithub,
   } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { Container,Row,Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
 import myAvatar from '../images/avatar.jpg'
@@ -51,6 +51,13 @@ const HomeIntro = () =>{
                 >
                   <AiFillGithub color = {"purple"} size={"3em"}/>
                 </a>
+                <a
+                  href="https://www.instagram.com/furkan_hlm/"
+                  className="icon"
+                  style={{paddingLeft: "3%"}}
+                >
+                  <FaInstagram color = {"purple"} size={"3em"}/>
+                </a>                
                 <a
                   href="https://www.linkedin.com/in/fayhan25/"
                   className="icon"

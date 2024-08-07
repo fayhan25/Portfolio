@@ -7,6 +7,7 @@ import Movie from '../../images/Movie.PNG'
 import places from '../../images/places.PNG'
 import flixlist2 from '../../images/flixlist2.PNG'
 import port from '../../images/portfolio.PNG'
+import Soccer from '../../images/SoccerAI.png'
 function Projects() {
   return (
     <Container fluid>
@@ -43,9 +44,9 @@ function Projects() {
           <Col md={4} className = "card-cols">
             <div className="project-container">
             <ProjectCard className = "card"
-              imgPath={devpic}
-              title="HRT Fitness"
-              description="Developed a dynamic fitness app with Java and Android Studio, offering personalized diet and workout recommendations."
+              imgPath={Soccer}
+              title="Soccer AI"
+              description = "Developed a website to give personalized tips using AI on how to improve soccer skills based on given user inputs using Next.js, OpenAI api, Vercel AI."
               ghLink="https://github.com/fayhan25/HRTFitnessApp"          
             />
             </div>
@@ -67,9 +68,21 @@ function Projects() {
           <Col md={4} className = "card-cols">
             <div className="project-container">
             <ProjectCard className = "card"
+              imgPath={devpic}
+              title="HRT Fitness"
+              description="Developed a dynamic fitness app with Java and Android Studio, offering personalized diet and workout recommendations."
+              ghLink="https://github.com/fayhan25/HRTFitnessApp"          
+            />
+            </div>
+
+          </Col>
+
+          <Col md={4} className = "card-cols">
+            <div className="project-container">
+            <ProjectCard className = "card"
               imgPath={port}
               title="Portfolio"
-              description="Portfolio built with reactjs to present information about myself"
+              description="Portfolio built with Reactjs to present information about myself"
               ghLink="https://github.com/fayhan25/Portfolio"
             />
             </div>

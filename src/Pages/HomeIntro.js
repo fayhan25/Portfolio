@@ -43,29 +43,33 @@ const HomeIntro = () =>{
           </Col>
         </Row>
         <Row>
-          <Col md={12} style = {{textAlign: "center", marginTop: "5%"}}>
-            <h1 style={{color:"white", textAlign:"center", paddingBottom:"3%"}}>FIND ME ON</h1>
+        <h1 style={{color:"white", textAlign:"center", paddingBottom:"3%"}}>FIND ME ON</h1>
+          <Col style = {{textAlign: "center"}}>
+            
                 <a
                   href="https://github.com/fayhan25"
                   className="icon"
                 >
                   <AiFillGithub color = {"purple"} size={"3em"}/>
                 </a>
+            </Col>
+            <Col  style = {{textAlign: "center"}}>
                 <a
                   href="https://www.instagram.com/furkan_hlm/"
                   className="icon"
-                  style={{paddingLeft: "3%", paddingRight:"1.5%"}}
                 >
                   <FaInstagram color = {"purple"} size={"3em"}/>
-                </a>                
+                </a> 
+            </Col>
+            <Col  style = {{textAlign: "center"}}>
                 <a
                   href="https://www.linkedin.com/in/fayhan25/"
                   className="icon"
-                  style={{paddingLeft: "3%"}}
+                  
                 >
                   <FaLinkedinIn color = {"purple"} size={"3em"}/>
                 </a>
-          </Col>
+            </Col>
         </Row>
       </Container>
       </Container>
